@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family:  "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+.logo{
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.app{
+    margin-left: 10px;
+    background-color: #A0583C;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.login{
+    background-color: #A0583C;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.main-section{
+    background: url(background\ image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.content h1{
+    color: #fffada;
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+.content p{
+    color: #ccb9b1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.first{
+    background-color: #ad7159;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    height: 55px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+
+.content{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.coffee section{
+    background-color: #ad7159;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    color:#c08267;
+    font-size: 10px;
+
+
+}
+
+.main{
+    background-color: #fffada;
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+}
+
+.item-1 img{
+    height: 150px;
+    width: 230px;
+    margin-top: 15px;
+}
+
+.item-1{
+    background-color:#ad7159;
+    width: 260px;
+    height: 450px;
+    text-align: center;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.heading{
+    padding-top: 30px;
+}
+
+.buy{
+    display: flex;
+}
+
+.order{
+    height: 40px;
+    width: 120px;
+    margin-left:60px;
+    border-radius: 13px;
+    margin-top: 53px;
+    background-color: #A0583C;
+    color: white;
+    border: none;
+}
+
+.buy a{
+    margin-left: 20px;
+    margin-top: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.details{
+    color: #fffada;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.brands{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.brand-1{
+    width: 205px;
+    height: 205px;
+    margin-top: 43px;
+
+
+}
+
+.brand-2{
+    width: 291px;
+    height: 163px;
+    margin-top: 43px;
+}
+
+.brand-3{
+    width: 282px;
+    height: 282px;
+}
+
+.brand-4{
+    width: 231px;
+    height: 292px;
+    margin-right: 60px;
+}
+
+.About-section{
+    background-color: #c08267;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+.contact{
+    color: #fffada;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+.available{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    color: white;
+    padding-top:70px ;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.list{
+    padding-top: 10px;
+}
+
+.icons{
+    padding-top: 10px;
+    
+}
+
+#icon-2{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#icon-1{
+    font-size: 20px;
+}
+
+.copyright{
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 10px;
+    color: white;
+}
+
+.name{
+    font-family:"Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
